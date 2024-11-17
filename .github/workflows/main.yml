@@ -1,4 +1,4 @@
-name: Surfshark IP Updater
+name: TunnelBear IP Updater
 
 on:
   schedule:
