@@ -44,3 +44,8 @@ TW.lazerpenguin.com
 KE.lazerpenguin.com
 NG.lazerpenguin.com
 ZA.lazerpenguin.com
+us-central-x.lazerpenguin.com
+us-central.lazerpenguin.com
+us-east-x.lazerpenguin.com
+us-west-x.lazerpenguin.com
+
