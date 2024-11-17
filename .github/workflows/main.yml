@@ -27,7 +27,7 @@ jobs:
           pip install requests
      
 
-      - name: Run surfshark subnets
+      - name: Run TunnelBear subnets
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python tunnelbear.py
@@ -41,7 +41,7 @@ jobs:
       - name: Commit changes
         run: |
           git add tunnelbear_subnet.txt tunnebear_ips.csv
-          git diff-index --quiet HEAD || git commit -m "[AUTO] update IoCs $(date '+%Y-%m-%d %H:%M:%S')"
+          git diff-index --quiet HEAD || git commit -m "[AUTO] update tunnel bear $(date '+%Y-%m-%d %H:%M:%S')"
           
       - name: Push changes
         id: push
