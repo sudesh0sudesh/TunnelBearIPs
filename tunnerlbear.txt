@@ -48,4 +48,5 @@ us-central-x.lazerpenguin.com
 us-central.lazerpenguin.com
 us-east-x.lazerpenguin.com
 us-west-x.lazerpenguin.com
-
+us-east.lazerpenguin.com
+us-west.lazerpenguin.com

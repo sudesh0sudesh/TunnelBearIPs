@@ -56,6 +56,7 @@ def resolve_domains(domains, resolver, resolve_subnets=False):
                     ip_subnet.add(subnet)
         except Exception as e:
             print(f"Error resolving {domain}: {e}")
+            continue
     return ip_hostnames, ip_subnet
 
 def read_existing_ips(file_path):
