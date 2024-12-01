@@ -30,7 +30,7 @@ jobs:
       - name: Run TunnelBear subnets
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python tunnelbear.py
+        run: python ../.github/.scripts/tunnelbear.py
 
 
       - name: Configure Git

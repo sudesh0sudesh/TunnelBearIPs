@@ -6,8 +6,8 @@ from datetime import datetime
 
 DNS_SERVERS = ['8.8.8.8', '8.8.4.4']
 DOMAIN_FILE = 'tunnerlbear.txt'
-OUTPUT_FILE = 'tunnelbear_subnet.txt'
-OUTPUT_CSV_FILE = "tunnelbear_ips.csv"
+OUTPUT_FILE = '../../tunnelbear_subnet.txt'
+OUTPUT_CSV_FILE = "../../tunnelbear_ips.csv"
 IP_GUIDE_URL = "https://ip.guide/"
 
 def configure_dns_resolver():
